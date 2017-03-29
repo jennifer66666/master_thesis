@@ -1,6 +1,6 @@
 compile_pdf:
   script:
-    - latexmkrc
+    - latexmk
   artifacts:
     paths:
       - thesisJp.pdf
