@@ -16,3 +16,6 @@
 *.aux
 
 thesisJp\.pdf
+
+*.synctex.gz
+
