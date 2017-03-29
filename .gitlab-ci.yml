@@ -1,5 +1,6 @@
 compile_pdf:
   script:
+    - latexmk -C
     - latexmk
   artifacts:
     paths:
