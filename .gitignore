@@ -19,3 +19,7 @@ thesisJp\.pdf
 
 *.synctex.gz
 
+
+thesisJp\.fls
+
+thesisJp\.fdb_latexmk

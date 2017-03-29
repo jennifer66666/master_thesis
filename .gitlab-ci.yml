@@ -1,7 +1,6 @@
 compile_pdf:
-  image: aergus/latex
   script:
-    - lualatex --halt-on-error thesisJp.tex
+    - latexmkrc
   artifacts:
     paths:
       - thesisJp.pdf
