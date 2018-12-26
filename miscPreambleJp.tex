@@ -12,11 +12,16 @@
 %\usepackage{multirow}
 \usepackage{xspace}
 \usepackage{ifthen}
+
 \usepackage{algorithm}
 \usepackage{algorithmic}
 
-\usepackage[pdfencoding=auto]{hyperref}
+\usepackage{comment}
+
+\usepackage{hyperref}
 \hypersetup{%
+	pdfencoding=auto,%
+	setpagesize=false,%
 	bookmarks=true,%
 	bookmarksdepth=subsubsection,%
 	bookmarksnumbered=true,%
@@ -31,8 +36,6 @@
 	urlcolor=blue%
 }
 	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% preamble for specifying packages 
 % Reference
 \newcommand{\Cemb}[1]{\phantomsection \addcontentsline{toc}{chapter}{#1}\chapter*{#1}}
 \newcommand{\tref}[1]{表~\ref{#1}}
@@ -47,8 +50,6 @@
 \newcommand{\argmin}{\mathop{\rm argmin}\limits}
 \newcommand{\norm}[2]{\left|\left|#1\right|\right|^{#2}}
 \renewcommand{\bibname}{参考文献}
-%
-\input{miscCoverStyleJp}
 
 \makeatletter
 \DeclareRobustCommand\onedot{\futurelet\@let@token\@onedot}
@@ -62,4 +63,5 @@
 \def\vice{\emph{vice versa}}
 \makeatother
 
+\input{miscCoverStyleJp}
 
