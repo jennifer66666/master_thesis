@@ -75,7 +75,11 @@
 \input{mainConclusion}
 \clearpage
 
-\bibliographystyle{abbrv}
+% 日本語を含む文献では， jplain, jabbrv などを指定し，
+% pbibtex または upbibtex で処理すること．
+\bibliographystyle{jplain}
+%\bibliographystyle{tieice}  % 電子情報通信学会
+%\bibliographystyle{tipsj}   % 情報処理学会
 \bibliography{test,gc_ja}
 \clearpage
 
